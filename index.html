@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pizzeria-Rialto</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body >
+    <div class="popup hidden" scroll="no">
+      
+        <a class="close">❌</a>
+        <h1>
+          bestellen sie jetzt und erhalten sie jede Italiano Pizza Für 6,50€
+        </h1>
+        <h2 class="time-out">07:34:52</h2>
+        <span
+          class="glf-button order-btn order-btn-2"
+          data-glf-cuid="243032da-140f-4588-8ddb-7003f02a4fe6" data-glf-ruid="d5e41d7c-fcb3-4810-b50e-f0f62b887769"
+        >
+          Jetzt bestellen</span
+        >
+    </div>
+    <section class="header">
+      <div class="sec-con">
+        <nav class="nav-bar">
+          <ul class="link-main">
+            <li class="img">
+              <a href="/#"
+                ><img class="img-logo1" src="images/logo-2.png" alt=""
+              /></a>
+            </li>
+          </ul>
+          <ul class="links links1">
+            <a href="#Menu"><li>Menu</li></a>
+            <a href="#uber-uns"><li>Info</li></a>
+            <a
+              href="#"
+              data-glf-cuid="243032da-140f-4588-8ddb-7003f02a4fe6"
+              data-glf-ruid="d5e41d7c-fcb3-4810-b50e-f0f62b887769"
+              ><li>Bestellen</li></a
+            >
+          </ul>
+          <ul class="links links2 hidden">
+            <a href="#Menu"><li>Menu</li></a>
+            <a href="#uber-uns"><li>Info</li></a>
+            <a
+              href="#"
+              data-glf-cuid="243032da-140f-4588-8ddb-7003f02a4fe6"
+              data-glf-ruid="d5e41d7c-fcb3-4810-b50e-f0f62b887769"
+              ><li>Bestellen</li></a
+            >
+          </ul>
+          <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <div class="close-con hidden"></div>
+          <a class="logo2-link" href="/#"
+            ><img class="logo2" src="images/logo-2.png" alt=""
+          /></a>
+        </nav>
+        <div class="mid-text">
+          <h1>Zeit, Essen zu bestellen</h1>
+        </div>
+      </div>
+      <div class="btns">
+        <span
+          class="glf-button order-btn"
+          data-glf-cuid="243032da-140f-4588-8ddb-7003f02a4fe6"
+          data-glf-ruid="d5e41d7c-fcb3-4810-b50e-f0f62b887769"
+        >
+          Jetzt bestellen</span
+        >
+      </div>
+    </section>
+    <div class="swiper-container" id="Menu">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide-1"><h1>PIZZA</h1></div>
+        <div class="swiper-slide slide-2"><h1>PASTA</h1></div>
+        <div class="swiper-slide slide-3"><h1>PESCE</h1></div>
+        <div class="swiper-slide slide-4"><h1>DOLCE</h1></div>
+        <div class="swiper-slide slide-5"><h1>CRESPELLE</h1></div>
+        <div class="swiper-slide slide-6"><h1>SCHNITZEL</h1></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swip swiper-button-prev"></div>
+      <div class="swip swiper-button-next"></div>
+    </div>
+
+    <section class="über-uns" id="uber-uns">
+      <div class="info">
+        <div class="box box1">
+          <img src="icon/pin.svg" width="45px" alt="" />
+          <div class="text-1">
+            <h1>Adresse:</h1>
+
+            <p>2320 Schwechat, Wiener Straße 24</p>
+          </div>
+        </div>
+        <div class="box box2">
+          <img src="icon/clock.svg" width="35px" alt="" />
+          <div class="text-1">
+            <h1>Öffnungszeiten:</h1>
+
+            <p>Täglich geöffnet von 11:00 bis 22:30 Uhr</p>
+          </div>
+        </div>
+        <div class="box box3">
+          <img src="icon/call.svg" width="35px" alt="" />
+          <div class="text-1">
+            <h1>Kontakt:</h1>
+
+            <p>Tel: +43 1 7062787 / 7079947</p>
+            <p>Email: office@rialto-pizzeria.at</p>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          width="100%"
+          height="100%"
+          id="mapcanvas"
+          src="https://maps.google.com/maps?q=wiener%20stra%C3%9Fe%2024%20,%20schwechat&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        >
+          <div style="overflow: hidden">
+            <div id="gmap_canvas" style="height: 100%; width: 100%"></div>
+          </div>
+        </iframe>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <ul class="con">
+          <li>
+            <a href="#"><img src="images/logo-2.PNG" class="logo" alt="" /></a>
+          </li>
+          <ul class="linkss">
+            <a href="#Menu"><li>Menu</li></a>
+            <a href="#uber-uns"><li>Info</li></a>
+            <a
+              href="#"
+              data-glf-cuid="243032da-140f-4588-8ddb-7003f02a4fe6"
+              data-glf-ruid="d5e41d7c-fcb3-4810-b50e-f0f62b887769"
+              ><li>Bestellen</li></a
+            >
+          </ul>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script
+    src="https://www.foodbooking.com/widget/js/ewm2.js"
+    deferasync
+  ></script>
+
+  <script src="script.js"></script>
+</html>
